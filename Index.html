@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+<link rel="stylesheet" href="styles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 img {
@@ -12,44 +12,23 @@ img {
 <body>
     <Header>
         <div class="topnav">
-            <a class="active"
-        href="#home">Home</a>
+            <a href="#home">Home</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#aboutme">About Me</a>
             <a href="contact">Contact</a>
-        <img src="mis.jpg" alt="Photo of Melissa">
         </div>
     </Header>
-    <article>
-    <form>
-        <div class="container">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-    </form>
-    
-
+    <article class="aboutme" id="aboutme">
+        <img src="mis.jpg" alt="Photo of Melissa">
     </article>
-    <section>
-
+    <section class="skills" id="skills">
+        <div>Very few</div>
+        <div>Can follow written directions sorta</div>
+        <div>Very follow verbal directions a little</div>
     </section>
-        </div>
+    <section class="projects" id="projects">
+    </section>
 
 </body>
 <footer>
